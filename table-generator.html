@@ -1,0 +1,98 @@
+<!DOCTYPE html
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="table-generator.css">
+        <title>Table Generator</title>
+    </head>
+
+    <body>
+
+            <h1 style="text-align: center; font-size: 25px;"> HTML Table Generator</h1>
+
+            <div id="container">
+
+
+            <table style="width: 40%; border: 0.1px solid black; border-collapse: collapse; margin-left: 2%; margin-bottom: -0.5%;">
+                <tr>
+                    <th style="border: 1px solid #ccc; padding: 1px; border-collapse: collapse;"> Edit Table</th>
+                    <th style="border: 1px solid #ccc; padding: 1px; border-collapse: collapse;">Preview</th>
+                    <th style="border: 1px solid #ccc; padding: 1px; border-collapse: collapse;">HTML code</th>
+                </tr>
+                
+            </table>
+                <!-- table rows -->
+              </table>
+              </div> 
+              <hr>
+              
+              
+              <div style="float: left; margin-left: 2%;"> 
+              <br>
+            <label for="Rows(20)">Rows(max 20)</label>
+            <br>
+            <button onclick="decreaseValue()">-</button>
+            <input type="number" id="Rows(20)" value="0" min="1" max="20" readonly required>
+            <button onclick="increaseValue()">+</button> </div>
+
+            <div style="float: right; display: flex; margin: 1.5%; center; gap: 0; padding-right: 20%;"> 
+            <input type="checkbox" name="Include header"> include header row </label> 
+            </div>
+                             
+            <br>
+            <br><br>
+
+            <div style="float: left; margin-left: -110px; display: block;"> 
+            <br>
+            <label for="Columns(20)">Columns(max 10)</label>
+            <br>
+            <button onclick="decreaseValue()">-</button>
+            <input type="number" id="Columns(20)" value="0" min="1" max="10" readonly required>
+            <button onclick="increaseValue()">+</button>
+            </div>
+
+            <br>
+            <div style="float:right; display: flex; flex-direction: column; justify-content: space-between; margin: 0.001%; padding-right: 20%; align-items: flex-start;">
+                <label for="caption">Table Caption (optional)</label>
+                <input type="text" id="caption" name="caption" placeholder="Enter Table Caption">
+                </label>
+            </div>
+            <br><br><br>
+
+            <p style="text-align:left; margin-left: 3%; margin-bottom: 1%;">Edit Table Content</p>
+
+            
+            <div class="table-box">
+            <div class="table-2">
+
+            <table class="style-two">
+                <tr>
+                    <th>Header1</th>
+                    <th>Header2</th>
+                    <th>Header3</th>
+                </tr>
+                <tr>
+                    <td>Cell 2-1</td>
+                    <td>Cell 2-2</td>
+                    <td>Cell 2-3</td>
+                </tr>
+                <tr>
+                    <td>Cell 3-1</td>
+                    <td>Cell 3-2</td>
+                    <td>Cell 3-3</td>
+                </tr>
+            </table>
+
+        </div>
+        </div>
+
+        
+        <div class="submit-container">
+
+        <input type="reset" value="Reset Table"></input>
+        <input type="Preview Table" value="Preview Table"></input>
+        </div> 
+
+        </div>
+    </body>

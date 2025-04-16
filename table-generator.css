@@ -1,0 +1,141 @@
+
+.checkbox{
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    display: float;
+    object-fit: cover;
+    align-items: right;
+    padding: 1%;
+}
+
+.table-2{
+    text-align: left;
+    padding: 8px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-2 th,
+.table-2 td{
+    border: 1px solid black;
+    padding:8px;
+}
+
+.submit-container{
+    margin-top: 20px;
+    text-align: right;
+}
+
+button {
+    padding: 0.1rem 0.3cm;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #c9d1da; /* blue */
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0.01% auto; 
+    align-items: left; /* Center children horizontally */
+    justify-content: left; /* Center children vertically */
+    align-self: left;
+}
+
+body{
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(37, 44, 51);
+}
+
+.container{
+text-align: center;
+font-size: 13px;
+margin: -3px;
+border-collapse: collapse;
+
+}
+
+.line-separator {
+    height: 2px;
+    
+    margin: 0;
+    opacity: 100%;
+  }
+  
+  .left-align {
+    text-align: left;      /* Aligns content inside to the left */
+  }
+  .button-group{
+    margin-left: 12%;
+  }
+
+  .styled-table th,
+  .styled-table td {
+    width: 100%;
+    margin: 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    color: #333;
+    border-collapse: collapse;
+  }
+  .style-two th,
+  .style-two td {
+    width: 150%;
+    justify-items: center;
+    height: 4%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: -5px;
+    border: 1px solid #605d5d;
+    margin-left: 10px;
+
+  }
+
+  .table-box {
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: fit-content; /* Or set to 100% or a specific px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional */
+    margin: 2%;
+  }
+  
+  .style-two {
+    text-align: left;
+
+  }
+  
+  .style-two th,
+  .style-two td {
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: left;
+    table-layout: fixed;
+    width: 199.98px;
+    word-wrap: break-word;
+
+
+
+  }
+
+  .submit-container {
+    input {
+      padding: 10px 10px;
+      margin-left: auto;
+      font-size: 11px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      float: center;
+      margin: 2px;
+    }
+  }
+  
+  

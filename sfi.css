@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    margin: 29%;
+    border: 1px solid rgb(46, 34, 34);
+    height: 400px;
+   background-color: green;
+   border-bottom: 200px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+}
+
+.text-box {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+.submit {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    background-color: rgb(64, 196, 82);
+}
+
+.form-box{
+    background-color: aliceblue;
+    margin: -45px;
+}
